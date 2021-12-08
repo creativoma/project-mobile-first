@@ -109,6 +109,13 @@ main {
   text-align: center;
 }
 
+.main__exchange__container h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  color: #ff9536;
+}
+
 .background__imageContainer {
   display: inline-block;
   min-width: 200px;
@@ -203,4 +210,36 @@ main {
   background: url(./assets/icons/trending-down.svg);
   width: 12px;
   height: 12px;
+}
+
+.main__tables__container--update {
+  margin: 0 auto;
+  max-width: 180px;
+  border-radius: 8px;
+  margin-top: 15px;
+  background: var(--soft-orange);
+}
+
+.main__tables__container--update--row {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 12px;
+}
+
+.main__tables__container--update--row p {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+}
+
+.main__tables__container--update--row span {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
 }
