@@ -243,3 +243,17 @@ main {
   line-height: 1.5rem;
   color: var(--warm-black);
 }
+
+.table-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.table-scroll div {
+  flex: 0 0 auto;
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  background: var(--soft-orange);
+}
