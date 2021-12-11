@@ -369,6 +369,9 @@ main {
 
 section.bitcoin-img {
   background: url(./assets/img/bitcoinbaby.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 380px;
 }
 
