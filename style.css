@@ -5,10 +5,12 @@
   --secondary-blue: #1a9af7;
   --soft-blue: #e7f5ff;
   --warm-black: #282623;
+  --warm-black-two: #201e1c;
   --black: #201e1c;
   --off-white: #faf8f7;
   --just-white: #fff;
   --grey: #bababa;
+  --grey-font: #b5b0ac;
 }
 * {
   box-sizing: border-box;
@@ -18,6 +20,7 @@
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -105,7 +108,7 @@ main {
   height: auto;
   margin: 0 auto;
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 64px;
   text-align: center;
 }
 
@@ -148,7 +151,7 @@ main {
   font-size: 1.4rem;
   line-height: 1.8rem;
   margin-bottom: 20px;
-  color: #757575;
+  color: var(--grey-font);
 }
 
 .main__tables__container {
@@ -180,7 +183,7 @@ main {
   font-size: 1.6rem;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #b5b0ac;
+  color: var(--grey-font);
 }
 
 .main__tables__container--row--price {
@@ -257,3 +260,122 @@ main {
   padding: 20px;
   background: var(--soft-orange);
 } */
+
+.main-product-detail {
+  background: var(--warm-black-two);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-product-detail__icon {
+  display: inline-block;
+  background: url(./assets/icons/batata.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 41px;
+  height: 24px;
+  margin-top: -12px;
+}
+
+.main-product-detail__title {
+  width: 90%;
+  min-width: 250px;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 42px;
+  padding-bottom: 30px;
+  color: var(--just-white);
+}
+
+.main-product-detail__title h2 {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.main-product-detail__title p {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--grey-font);
+}
+
+.product-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 320px;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 34px;
+  text-align: center;
+}
+
+.product-card__detalle {
+  width: 90%;
+  min-width: 250px;
+  max-width: 900px;
+  margin-bottom: 20px;
+  background: var(--warm-black);
+  padding: 16px;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-card__icono {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.clock {
+  background: url(./assets/icons/clock.svg);
+}
+.eyes {
+  background: url(./assets/icons/eye.svg);
+}
+.dollar {
+  background: url(./assets/icons/dollar-sign.svg);
+}
+.check {
+  background: url(./assets/icons/check-circle.svg);
+}
+
+.product-card__title {
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 1.8rem;
+
+  color: var(--just-white);
+}
+.product-card__body {
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--grey-font);
+}
+
+section.bitcoin-img {
+  background: url(./assets/img/bitcoinbaby.jpg);
+  height: 380px;
+}
+
+section.bitcoin-img h2 {
+  padding-top: 64px;
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
