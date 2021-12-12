@@ -496,6 +496,9 @@ footer {
 .list-link ul {
   list-style: none;
 }
+.list-link li {
+  padding-bottom: 5px;
+}
 
 .list-link a {
   text-decoration: none;
@@ -504,7 +507,6 @@ footer {
   font-style: normal;
   font-weight: 500;
   font-size: 1.4rem;
-  line-height: 18px;
 }
 
 .footer__left a:hover {
