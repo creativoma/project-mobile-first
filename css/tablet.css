@@ -1,0 +1,22 @@
+header img.header__logo {
+  margin-top: 00px;
+}
+.header__title-container {
+  height: auto;
+  margin-top: 30px;
+}
+
+section.bitcoin-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+section.bitcoin-img h2 {
+  padding-top: 0px;
+  text-align: center;
+  font-size: 4.4rem;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}

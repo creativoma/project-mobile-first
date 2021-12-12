@@ -92,7 +92,7 @@ header img.header__logo {
   width: 13px;
   height: 8px;
   margin-left: 10px;
-  background-image: url("./assets/icons/down-arrow.svg");
+  background-image: url("../assets/icons/down-arrow.svg");
 }
 
 main {
@@ -123,7 +123,7 @@ main {
   display: inline-block;
   min-width: 200px;
   min-height: 200px;
-  background: url("./assets/img/Bitcoin.svg");
+  background: url("../assets/img/Bitcoin.svg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
@@ -207,13 +207,13 @@ main {
 }
 
 .main__tables__container--row--price .trending-up {
-  background: url(./assets/icons/trending-up.svg);
+  background: url(../assets/icons/trending-up.svg);
   width: 12px;
   height: 12px;
 }
 
 .main__tables__container--row--price .trending-down {
-  background: url(./assets/icons/trending-down.svg);
+  background: url(../assets/icons/trending-down.svg);
   width: 12px;
   height: 12px;
 }
@@ -259,7 +259,7 @@ main {
 
 .main-product-detail__icon {
   display: inline-block;
-  background: url(./assets/icons/batata.svg);
+  background: url(../assets/icons/batata.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -330,16 +330,16 @@ main {
 }
 
 .clock {
-  background: url(./assets/icons/clock.svg);
+  background: url(../assets/icons/clock.svg);
 }
 .eyes {
-  background: url(./assets/icons/eye.svg);
+  background: url(../assets/icons/eye.svg);
 }
 .dollar {
-  background: url(./assets/icons/dollar-sign.svg);
+  background: url(../assets/icons/dollar-sign.svg);
 }
 .check {
-  background: url(./assets/icons/check-circle.svg);
+  background: url(../assets/icons/check-circle.svg);
 }
 
 .product-card__title {
@@ -357,7 +357,7 @@ main {
 }
 
 section.bitcoin-img {
-  background: url(./assets/img/bitcoinbaby.jpg);
+  background: url(../assets/img/bitcoinbaby.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -385,7 +385,7 @@ section.plans-container {
 
 .plans-container__slider {
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
   gap: 15px;
@@ -480,7 +480,7 @@ a.plans-cards__button {
   width: 13px;
   height: 8px;
   margin-left: 10px;
-  background-image: url("./assets/icons/down-arrow.svg");
+  background-image: url("../assets/icons/down-arrow.svg");
 }
 
 footer {

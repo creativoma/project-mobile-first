@@ -1,0 +1,10 @@
+.plans-container__cards {
+  filter: saturate(0) opacity(0.5);
+
+  transition: all 250ms ease;
+}
+
+.plans-container__cards:hover {
+  filter: saturate(1) opacity(1);
+  cursor: pointer;
+}

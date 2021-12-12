@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 600px)" />
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="(min-width: 768px)"
+    />
     <title>Curso Mobile First</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,7 +33,7 @@
           Batatabit te ayuda a navegar entre los diferentes precios y
           tendencias.
         </p>
-        <a href="" class="header__button"
+        <a href="#planes" class="header__button"
           >Conoce Nuestros Planes<span></span
         ></a>
       </div>
@@ -122,7 +128,7 @@
       <section class="bitcoin-img">
         <h2>Conócelo hoy.</h2>
       </section>
-      <section class="plans-container">
+      <section id="planes" class="plans-container">
         <div class="plans-container__title">
           <h2>Escoge el plan que mejor se ajuste a ti.</h2>
           <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
