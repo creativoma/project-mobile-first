@@ -250,20 +250,6 @@ main {
   color: var(--warm-black);
 }
 
-/* .table-scroll {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-}
-
-.table-scroll div {
-  flex: 0 0 auto;
-  width: 180px;
-  margin: 20px;
-  padding: 20px;
-  background: var(--soft-orange);
-} */
-
 .main-product-detail {
   background: var(--warm-black-two);
   display: flex;
@@ -397,24 +383,22 @@ section.plans-container {
   text-align: center;
 }
 
-.plans-container__cards {
-  width: 100%;
-  min-width: 250px;
-  max-width: 900px;
-  height: auto;
+.plans-container__slider {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  overflow-x: scroll;
+  gap: 25px;
+  padding: 0px 20px 35px 20px;
 }
 
-.plans-container__cards article {
+.plans-container__cards {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 200px;
+  max-width: 900px;
+  height: auto;
   padding: 31px 10px 24px 10px;
-  max-width: 200px;
   background: var(--just-white);
   border-radius: 8px;
   margin-top: 30px;
