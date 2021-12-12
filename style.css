@@ -379,19 +379,22 @@ section.plans-container {
   height: auto;
   margin: 0 auto;
   padding-top: 50px;
-  padding-bottom: 64px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
 .plans-container__slider {
   display: flex;
   overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
   gap: 25px;
-  padding: 0px 20px 35px 20px;
+  padding: 0px 25px 35px 20px;
 }
 
 .plans-container__cards {
   display: flex;
+  scroll-snap-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
