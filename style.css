@@ -388,7 +388,7 @@ section.plans-container {
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
-  gap: 25px;
+  gap: 15px;
   padding: 0px 25px 35px 20px;
 }
 
@@ -398,7 +398,7 @@ section.plans-container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 200px;
+  min-width: 190px;
   max-width: 900px;
   height: auto;
   padding: 31px 10px 24px 10px;
@@ -481,4 +481,32 @@ a.plans-cards__button {
   height: 8px;
   margin-left: 10px;
   background-image: url("./assets/icons/down-arrow.svg");
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 150px;
+  padding-left: 10px;
+  background-color: var(--bitcoin-orange);
+}
+
+.list-link ul {
+  list-style: none;
+}
+
+.list-link a {
+  text-decoration: none;
+  color: var(--just-white);
+  font-family: DM Sans, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 18px;
+}
+
+.footer__left a:hover {
+  text-decoration: underline;
 }
